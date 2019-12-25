@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+canvas {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid red;
+  background-image: url("bg.png");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+button {
+  margin: 5px;
+  border: 1px solid #2980b9;
+  background-color: #3498db;
+  font-size: 1.5em;
+  color: white;
+}
+button:active {
+  background-color: #2980b9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
